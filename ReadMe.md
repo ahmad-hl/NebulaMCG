@@ -1,4 +1,10 @@
 # Dependencies
+This project uses kodo for FEC coding. 
+
+To use kodo.cpython-36m-x86_64-linux-gnu.so, you need to set up a virtual envirnment with python 3.6
+
+You also need to install libvpx-dev for video coding (VP8 encoding and decoding).
+
 install libvpx and Pillow
 
 ```sudo apt-get update -y```
