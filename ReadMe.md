@@ -39,7 +39,9 @@ You 'tc & netem' to restrict the link between client PC and server PC!
 - **Step 4 (optional)**:
 
 To run them from terminal, you need to add the root directory to PYTHONPATH:
-```PYTHONPATH=$PYTHONPATH:/path/to/miniVideoStreaming/```
+
+```PYTHONPATH=$PYTHONPATH:/path/to/NebulaMCG/```
+
 ```export PYTHONPATH```
 
 - **Step5 (Running client then server)**:
