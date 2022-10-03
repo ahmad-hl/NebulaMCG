@@ -58,6 +58,32 @@ Where round trip time probing (RTTP), and ivf video refers to either [ivf videos
      alt="The prototype implemented in the code"
      style="float: left; margin-right: 10px;" /> -->
 
+# System Performance 
+**Bandwidth Utilization**<br>
+Throughput of each connection with variation of the link bandwidth (grey). Nebula uses the bandwidth the most efficiently.
+ESCOT and TCP Cubic tend to overshoot while WebRTC significantly undershoots. BO barely utilizes the available bandwidth
+![bandwidth Utilization](https://user-images.githubusercontent.com/62985331/193544493-cb9b5985-0cae-4cb4-88f0-202689493db6.png)
+
+**Motion-to-photon Latency and visual quality (PSNR in dB)**<br>
+ MTP latency, network RTT, and PSNR on emulated network<br>
+![image](https://user-images.githubusercontent.com/62985331/193545069-c45ea659-e32d-4055-bcce-781dbcb909ab.png)
+MTP latency, network RTT, and PSNR over eduroam WiFi network <br>
+![image](https://user-images.githubusercontent.com/62985331/193545489-3e4d2ac9-7197-4bd8-a862-04ac2849050e.png)
+
+
+
+# User QoE Performance
+The articipants played Openarena game for two minutes for each streaming method. The order in which the participants experience each streaming solution follows the balanced latin square design to avoid learning and order effect.  After each run, the participants fill a short questionnaire on the perceived visual quality and playability on a 5-point Likert scale (1 - bad, 2 - poor, 3 - fair, 4 - good, 5 - excellent), and a simplified version of the NASA TLX survey considering the perceived mental demand, frustration, and success on a [0-20] scale. We do not disclose the streaming methods used in order not to affect the participants' ratings.
+
+**questionnaire's QR Code** <br>
+ ![questionnaire's QR Code](https://user-images.githubusercontent.com/62985331/193541350-98b24f0d-deae-49e4-86ca-c6593d46f11a.png)
+ 
+ **Users Perception** <br>
+ Users’ perception of the gaming experience under traditional cloud gaming measures (left) and task load (right). 
+ ![Users Perception](https://user-images.githubusercontent.com/62985331/193543419-46efe5c8-f836-4e0d-9fcb-f54e2cb03de3.png)
+
+
+
 [1]: https://www.dropbox.com/sh/0ad9g4m9ww6ro9z/AACdf4FxtMcdJ0mKwk3ee8Y0a?dl=0
 [2]: https://www.dropbox.com/sh/j9lkhs1x331w9z0/AAB_wa7yR8fq0EJH91tpIdz3a?dl=0
 
