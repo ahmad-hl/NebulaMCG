@@ -58,6 +58,11 @@ Where round trip time probing (RTTP), and ivf video refers to either [ivf videos
      alt="The prototype implemented in the code"
      style="float: left; margin-right: 10px;" /> -->
 
+**The gaming prototype** <br>
+The full prototype adds two components at the server, sceen capture and video encoding. The code pf this prototype is implemented under dir 
+![nebula_wcapture](https://github.com/ahmad-hl/NebulaMCG/tree/master/nebula_wcapture)
+
+
 # System Performance 
 **Bandwidth Utilization**<br>
 Throughput of each connection with variation of the link bandwidth (grey). Nebula uses the bandwidth the most efficiently.
