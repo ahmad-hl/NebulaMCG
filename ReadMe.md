@@ -59,8 +59,8 @@ Where round trip time probing (RTTP), and ivf video refers to either [ivf videos
      style="float: left; margin-right: 10px;" /> -->
 
 **The gaming prototype** <br>
-The full prototype adds two components at the server, sceen capture and video encoding. The code pf this prototype is implemented under dir 
-![nebula_wcapture](https://github.com/ahmad-hl/NebulaMCG/tree/master/nebula_wcapture)
+The full prototype adds two components at the server, sceen capture and video encoding. The code of this prototype is implemented under dir 
+[nebula_wcapture][3]
 
 
 # System Performance 
@@ -91,4 +91,5 @@ The articipants played Openarena game for two minutes for each streaming method.
 
 [1]: https://www.dropbox.com/sh/0ad9g4m9ww6ro9z/AACdf4FxtMcdJ0mKwk3ee8Y0a?dl=0
 [2]: https://www.dropbox.com/sh/j9lkhs1x331w9z0/AAB_wa7yR8fq0EJH91tpIdz3a?dl=0
+[3]: https://github.com/ahmad-hl/NebulaMCG/tree/master/nebula_wcapture
 
